@@ -1,0 +1,15 @@
+[alias]
+  co = checkout
+  r = log -30 --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green    )(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+  l = log -300 --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold gree    n)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+  br = branch
+  bd = branch -D
+  ci = commit
+  amend = commit --amend
+[user]
+  name = taewooEom23
+  email = wgenesis23@gmail.com
+[mergetool]
+  keepBackup = false
+[core]
+  editor = vi
